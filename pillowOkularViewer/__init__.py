@@ -4,6 +4,7 @@ class OkularViewer(Viewer):
   """
   Okular image viewer for PIL
   """
+  format = 'PNG'
 
   def get_command(self, file, title=None, **options):
     if title :
